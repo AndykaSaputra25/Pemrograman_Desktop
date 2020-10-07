@@ -16,7 +16,7 @@ def window():
         layout.addWidget(button)
         button.setGeometry(100,100,200,100)
         button.setFont(QFont('Arial',24))
-        button.setStyleSheet("background-color: #bdb76b; color: red")
+        button.setStyleSheet("font-size: 24pt; background-color: #bdb76b; color: red")
 
     #__menentukan ukuran window, + title dan menampilkan
     window.setGeometry(100,100,200,200)
